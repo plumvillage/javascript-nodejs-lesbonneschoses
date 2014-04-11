@@ -40,7 +40,7 @@
 
     <% if(product.getText("product.testimonial_quote")) { %> 
       <section id="quote">
-        <blockquote><%= product.getText("product.testimonial_quote") %> <strong>said <%= product.getText("product.testimonial_author") %></strong></blockquote>
+        <blockquote><%= product.getText("product.testimonial_quote") %> <strong><%= product.getText("product.testimonial_author") %></strong></blockquote>
       </section>
     <% } %>
     
