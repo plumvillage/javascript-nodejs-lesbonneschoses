@@ -54,7 +54,7 @@ $(function() {
             var marker = new google.maps.Marker({
                 position: results[0].geometry.location,
                 map: map,
-                title: 'Les Bonnes Choses'
+                title: 'vivir despiertos'
             })
           }
         })
