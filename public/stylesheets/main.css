@@ -161,7 +161,7 @@ header nav h1 a::before {
   left: 0;
   width: 70px;
   height: 70px;
-  background: #4f4f4f url(../images/logo@2x.png);
+  background: #ffffff url(../images/logo@2x.png);
   background-size: 70px 70px;
   transition: .25s;
 }
