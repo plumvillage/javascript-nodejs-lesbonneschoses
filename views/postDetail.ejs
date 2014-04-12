@@ -4,7 +4,7 @@
 
   <section id="post">
     
-      <em class="infos"><%= moment(post.getDate("blog-post.date")).format('MMMM DD, YYYY') %> by <%= post.getText("blog-post.author") %></em>
+      <em class="infos"><%= moment(post.getDate("blog-post.date")).format('MMMM DD, YYYY') %> por <%= post.getText("blog-post.author") %></em>
       
       <article>
         <%- post.getHtml("blog-post.body", ctx) %>
@@ -13,9 +13,9 @@
       <% if(relatedPosts.length > 0) { %> 
 
         <h2><% if(relatedPosts.length == 1) { %> 
-            This
+            Esto
           <% } else { %> 
-            These
+            Estos
           <% } %> should interest you too
         </h2>
 
@@ -33,7 +33,7 @@
 
       <% if(post.getBoolean('blog-post.allow_comments')) { %> 
 
-        <h2>Comments</h2>
+        <h2>Commentarios</h2>
 
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -54,7 +54,7 @@
 
     <% if(relatedProducts.length > 0) { %> 
 
-      <h2>Some pastries you should love</h2>
+      <h2>Usted podría gustarle estos también</h2>
 
       <ul>
         <% _.map(relatedProducts, function(product) { %> 
