@@ -152,8 +152,8 @@ exports.selectionDetail = prismic.route(function(req, res, ctx) {
 exports.about = prismic.route(function(req, res, ctx) {
 
   // Get the bookmarked document
-  prismic.getBookmark(ctx, 'about', function(page) {
-
+  prismic.getBookmark(ctx, 'about', function(err, page) {
+    if (err) { prismic.onPrismicError(err, req, res); return; }
     res.render('about', {
       page: page,
       menu: 'about'
