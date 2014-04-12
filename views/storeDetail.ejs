@@ -24,7 +24,12 @@
       <%- store.getText("store.city") %>
       <%- store.getText("store.zipcode", '<br>') %>
       <%- store.getText("store.country") %>
-    </p>  
+    </p> 
+
+    <p>
+    Contacto: 
+    <a href="mailto:<%- store.getText('store.email') %>?Subject=Gira%20en%20<%- store.getText('store.name') %>" target="_top"><%- store.getText('store.email') %></a>
+    </p> 
 
     <aside>
 
