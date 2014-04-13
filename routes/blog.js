@@ -4,8 +4,8 @@ var prismic = require('../prismic-helpers'),
 // -- Categories
 
 var categories = [
-  "Anuncios", 
-  "Aprendizajes", 
+  "Noticias", 
+  "Aprendizaje", 
   "Testimonios"
 ];
 
