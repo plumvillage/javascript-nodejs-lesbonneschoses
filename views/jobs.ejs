@@ -21,10 +21,10 @@
     </div>
 
     <% var services = {
-      "Store": "Positions in our Stores",
-      "Office": "Positions in our Offices",
-      "Workshop": "Positions in our Workshops",
-      "undefined": "Other positions"
+      "Entrenamientos": "Entrenamientos",
+      "Relaciones": "Como tener relaciones compasivas",
+      "Inspiración": "Inspiración para el camino",
+      "undefined": "Otros textos"
     }; %>
 
     <% _.chain(jobs.results).groupBy(function(j) { return j.getText('job-offer.service'); }).pairs().map(function(serviceWithJobs) { %> 
