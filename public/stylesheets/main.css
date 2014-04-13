@@ -239,6 +239,10 @@ header nav > a::before {
   transition: .25s;
 }
 
+#donation-button {
+  float: right;
+}
+
 div.main {
   min-height: 800px;
 }
