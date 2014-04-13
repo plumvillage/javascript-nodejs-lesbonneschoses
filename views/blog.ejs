@@ -26,7 +26,7 @@
 
       <nav>
         <ul>
-          <li><a href="/blog<%= ctx.maybeRef ? '?ref=' + ctx.maybeRef : '' %>">Home</a></li>
+          <li><a href="/blog<%= ctx.maybeRef ? '?ref=' + ctx.maybeRef : '' %>">Inicio</a></li>
           <% _(categories).map(function(category) { %> 
             <li><a href="/blog/categories/<%= category %><%= ctx.maybeRef ? '?ref=' + ctx.maybeRef : '' %>"><%= category %></a></li>
           <% }); %>
