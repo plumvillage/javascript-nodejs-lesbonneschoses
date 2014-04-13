@@ -3,7 +3,7 @@ var prismic = require('../prismic-helpers'),
 
 /** For a better organization, used by several pages **/
 var categories = {
-  "Prácticas básicas": "Prácticas básicas",
+  "Practicas basicas": "Prácticas básicas",
   "Yendo profundamente": "Yendo profundamente",
   "Despertarse": "Despertarse"
 };
