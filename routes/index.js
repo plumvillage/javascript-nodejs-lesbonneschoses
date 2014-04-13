@@ -3,9 +3,9 @@ var prismic = require('../prismic-helpers'),
 
 /** For a better organization, used by several pages **/
 var categories = {
-  "Macaron": "Esenciales",
-  "Cupcake": "Más profundas",
-  "Pie": "Despierta"
+  "Prácticas básicas": "Prácticas básicas",
+  "Yendo profundamente": "Yendo profundamente",
+  "Despertarse": "Despertarse"
 };
 
 // -- Home page
