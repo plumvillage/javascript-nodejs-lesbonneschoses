@@ -516,6 +516,12 @@ html.no-js #home #caroussel .products ul li  {
   border-top: 20px solid #eee;
 }
 
+#home div#mc_embed_signup {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #home #featured {
   width: 1024px;
   margin: 40px auto;
@@ -1285,6 +1291,11 @@ html.no-js #home #caroussel .products ul li {
   font-family: 'MavenPro';
 }
 
+#stores div#mc_embed_signup {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ==========================================================================
    Store detail
    ========================================================================== */

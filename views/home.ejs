@@ -35,18 +35,7 @@
 
   </section>
 
-  <section id="donation"> 
-
-    <h2>¡Ayúdanos a realizar el sueño de <a href="stores">la Gira Vivir Despiertos en América Latina</a> este otoño 2014!</h2>    
-        
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="9LUSMA8DJYNJ6">
-        <input type="hidden" name="lc" value="es">
-        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        
+  <section>  
         <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -97,11 +86,24 @@
 
   </section>
 
+  <section id="donation"> 
+
+    <h2>¡Ayúdanos a realizar el sueño de <a href="stores">la Gira Vivir Despiertos en América Latina</a> este otoño 2014!</h2>    
+        
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="9LUSMA8DJYNJ6">
+        <input type="hidden" name="lc" value="es">
+        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+  </section>
+
   <% _.chain(featured.results).filter(function(p) { return p.type == 'blog-post'; }).take(1).map(function(post) { %>
     
     <section id="blog">
 
-      <h2>Fresh news from <a href="/blog<%= ctx.maybeRef ? '?ref=' + ctx.maybeRef : '' %>">our blog</a></h2>
+      <h2>Noticias frescas desde <a href="/blog<%= ctx.maybeRef ? '?ref=' + ctx.maybeRef : '' %>">nuestro blog</a></h2>
 
       <a href="<%= ctx.linkResolver(ctx, post) %>">
         <h1><%= post.getStructuredText('blog-post.body').getTitle().text %></h1>
