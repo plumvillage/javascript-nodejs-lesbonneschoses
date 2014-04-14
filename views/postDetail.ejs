@@ -4,7 +4,7 @@
 
   <section id="post">
     
-      <em class="infos"><%= moment(post.getDate("blog-post.date")).format('D/M/Y') %> por <%= post.getText("blog-post.author") %></em>
+      <em class="infos"><%= moment(post.getDate("blog-post.date")).format('D/M/YY') %> por <%= post.getText("blog-post.author") %></em>
       
       <article>
         <%- post.getHtml("blog-post.body", ctx) %>
